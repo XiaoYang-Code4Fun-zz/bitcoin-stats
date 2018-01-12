@@ -1,0 +1,7 @@
+package: github.com/XiaoYang.Code4Fun/bitcoin-stats
+import:
+- package: github.com/btcsuite/btcd
+  subpackages:
+  - rpcclient
+  - wire
+- package: github.com/btcsuite/btcutil
